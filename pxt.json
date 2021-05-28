@@ -1,0 +1,51 @@
+{
+    "name": "game",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "storyboard": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.43",
+        "tag": "v1.4.43",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/d613fa29c3c700e4b7d90381ed39b7e65b0de04e",
+        "target": "1.4.43",
+        "pxt": "6.12.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#ee5938",
+        "#f8a027",
+        "#f3db47",
+        "#2f5cdd",
+        "#5ccbfc",
+        "#c07fc9",
+        "#3e3a96",
+        "#414bc1",
+        "#7a7bd0",
+        "#6e43b2",
+        "#cc788c",
+        "#5e306a",
+        "#b6549a",
+        "#3da0f7",
+        "#ffffff"
+    ]
+}
